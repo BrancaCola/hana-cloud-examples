@@ -1,0 +1,250 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "column_mappings": {
+                "MANDT": "MANDT",
+                "CARRID": "CARRID",
+                "CARRNAME": "CARRNAME",
+                "CURRCODE": "CURRCODE",
+                "URL": "URL"
+            },
+            "import_columns": [
+                "MANDT",
+                "CARRID",
+                "CARRNAME",
+                "CURRCODE",
+                "URL"
+            ],
+            "include_filter": [],
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "SCARR.csv",
+                "has_header": true,
+                "no_data_import": false,
+                "delete_existing_foreign_data": true,
+                "dialect": "HANA",
+                "type_config": {
+                    "delimiter": ";"
+                }
+            },
+            "target_table": "SCARR"
+        },
+        {
+            "column_mappings": {
+                "MANDT": "MANDT",
+                "CARRID": "CARRID",
+                "CONNID": "CONNID",
+                "FLDATE": "FLDATE",
+                "PRICE" : "PRICE",
+                "CURRENCY" : "CURRENCY",
+                "PLANETYPE" : "PLANETYPE",
+                "SEATSMAX" : "SEATSMAX",
+                "SEATSOCC" : "SEATSOCC",
+                "PAYMENTSUM" : "PAYMENTSUM",
+                "SEATSMAX_B" : "SEATSMAX_B",
+                "SEATSOCC_B" : "SEATSOCC_B",
+                "SEATSMAX_F" : "SEATSMAX_F",
+                "SEATSOCC_F" : "SEATSOCC_F"               
+            },
+            "import_columns": [
+                "MANDT",
+                "CARRID",
+                "CONNID",
+                "FLDATE",
+                "PRICE",
+                "CURRENCY",
+                "PLANETYPE",
+                "SEATSMAX",
+                "SEATSOCC",
+                "PAYMENTSUM",
+                "SEATSMAX_B",
+                "SEATSOCC_B",
+                "SEATSMAX_F",
+                "SEATSOCC_F" 
+            ],
+            "include_filter": [],
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "SFLIGHT.csv",
+                "has_header": true,
+                "no_data_import": false,
+                "delete_existing_foreign_data": true,
+                "dialect": "HANA",
+                "type_config": {
+                    "delimiter": ";"
+                }
+            },
+            "target_table": "SFLIGHT"
+        },
+        {
+            "column_mappings": {
+                "MANDT" :"MANDT",
+                "CARRID" :"CARRID",
+                "CONNID" :"CONNID",
+                "COUNTRYFR": "COUNTRYFR",
+                "CITYFROM" : "CITYFROM",
+                "AIRPFROM": "AIRPFROM",
+                "COUNTRYTO" : "COUNTRYTO",
+                "CITYTO": "CITYTO",
+                "AIRPTO": "AIRPTO",
+                "FLTIME": "FLTIME",
+                "DEPTIME": "DEPTIME",
+                "ARRTIME": "ARRTIME",
+                "DISTANCE": "DISTANCE",
+                "DISTID": "DISTID",
+                "FLTYPE": "FLTYPE",
+                "PERIOD": "PERIOD"             
+            },
+            "import_columns": [
+                "MANDT",
+                "CARRID",
+                "CONNID",
+                "COUNTRYFR",
+                "CITYFROM",
+                "AIRPFROM",
+                "COUNTRYTO",
+                "CITYTO",
+                "AIRPTO",
+                "FLTIME",
+                "DEPTIME",
+                "ARRTIME",
+                "DISTANCE",
+                "DISTID",
+                "FLTYPE",
+                "PERIOD"
+            ],
+            "include_filter": [],
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "SPFLI.csv",
+                "has_header": true,
+                "no_data_import": false,
+                "delete_existing_foreign_data": true,
+                "dialect": "HANA",
+                "type_config": {
+                    "delimiter": ";"
+                }
+            },
+            "target_table": "SPFLI"
+        },
+        {
+            "column_mappings": {
+                "MANDT":"MANDT",
+                "CARRID":"CARRID",
+                "CONNID":"CONNID",
+                "FLDATE":"FLDATE",
+                "BOOKID":"BOOKID",
+                "CUSTOMID":"CUSTOMID",
+                "CUSTTYPE":"CUSTTYPE",
+                "SMOKER":"SMOKER",
+                "LUGGWEIGHT":"LUGGWEIGHT",
+                "WUNIT":"WUNIT",
+                "INVOICE":"INVOICE",
+                "CLASS":"CLASS",
+                "FORCURAM":"FORCURAM",
+                "FORCURKEY":"FORCURKEY",
+                "LOCCURAM":"LOCCURAM",
+                "LOCCURKEY":"LOCCURKEY",
+                "ORDER_DATE":"ORDER_DATE",
+                "COUNTER":"COUNTER",
+                "AGENCYNUM":"AGENCYNUM",
+                "CANCELLED":"CANCELLED",
+                "RESERVED":"RESERVED",
+                "PASSNAME":"PASSNAME",
+                "PASSFORM":"PASSFORM",
+                "PASSBIRTH":"PASSBIRTH"             
+            },
+            "import_columns": [
+                "MANDT",
+                "CARRID",
+                "CONNID",
+                "FLDATE",
+                "BOOKID",
+                "CUSTOMID",
+                "CUSTTYPE",
+                "SMOKER",
+                "LUGGWEIGHT",
+                "WUNIT",
+                "INVOICE",
+                "CLASS",
+                "FORCURAM",
+                "FORCURKEY",
+                "LOCCURAM",
+                "LOCCURKEY",
+                "ORDER_DATE",
+                "COUNTER",
+                "AGENCYNUM",
+                "CANCELLED",
+                "RESERVED",
+                "PASSNAME",
+                "PASSFORM",
+                "PASSBIRTH"
+            ],
+            "include_filter": [],
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "SBOOK.csv",
+                "has_header": true,
+                "no_data_import": false,
+                "delete_existing_foreign_data": true,
+                "dialect": "HANA",
+                "type_config": {
+                    "delimiter": ";"
+                }
+            },
+            "target_table": "SBOOK"
+        },
+        {
+            "column_mappings": {
+                "MANDT":"MANDT",
+                "ID":"ID",
+               "NAME":"NAME",
+                "FORM":"FORM",
+                "STREET":"STREET",
+                "POSTBOX":"POSTBOX",
+                "POSTCODE":"POSTCODE",
+                "CITY":"CITY",
+                "COUNTRY":"COUNTRY",
+                "REGION":"REGION",
+                "TELEPHONE":"TELEPHONE",
+                "CUSTTYPE":"CUSTTYPE",
+                "DISCOUNT":"DISCOUNT",
+                "LANGU":"LANGU",
+                "EMAIL":"EMAIL",
+                "WEBUSER":"WEBUSER"        
+            },
+            "import_columns": [
+                "MANDT",
+                "ID",
+                "NAME",
+                "FORM",
+                "STREET",
+                "POSTBOX",
+                "POSTCODE",
+                "CITY",
+                "COUNTRY",
+                "REGION",
+                "TELEPHONE",
+                "CUSTTYPE",
+                "DISCOUNT",
+                "LANGU",
+                "EMAIL",
+                "WEBUSER"
+            ],
+            "include_filter": [],
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "SCUSTOM.csv",
+                "has_header": true,
+                "no_data_import": false,
+                "delete_existing_foreign_data": true,
+                "dialect": "HANA",
+                "type_config": {
+                    "delimiter": ";"
+                }
+            },
+            "target_table": "SCUSTOM"
+        }
+    ]
+}        

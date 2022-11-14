@@ -1,0 +1,22 @@
+MANDT;CARRID;CARRNAME;CURRCODE;URL
+000;AC;Air Canada;CAD;
+000;AF;Air France;EUR;
+000;LH;Lufthansa;EUR;
+100;AA;American Airlines;USD;http://www.aa.com
+100;AC;Air Canada;CAD;http://www.aircanada.ca
+100;AF;Air France;EUR;http://www.airfrance.fr
+100;AZ;Alitalia;EUR;http://www.alitalia.it
+100;BA;British Airways;GBP;http://www.british-airways.com
+100;FJ;Air Pacific;USD;http://www.airpacific.com
+100;CO;Continental Airlines;USD;http://www.continental.com
+100;DL;Delta Airlines;USD;http://www.delta-air.com
+100;AB;Air Berlin;EUR;http://www.airberlin.de
+100;LH;Lufthansa;EUR;http://www.lufthansa.com
+100;NG;Lauda Air;EUR;http://www.laudaair.com
+100;JL;Japan Airlines;JPY;http://www.jal.co.jp
+100;NW;Northwest Airlines;USD;http://www.nwa.com
+100;QF;Qantas Airways;AUD;http://www.qantas.com.au
+100;SA;South African Air.;ZAR;http://www.saa.co.za
+100;SQ;Singapore Airlines;SGD;http://www.singaporeair.com
+100;SR;Swiss;CHF;http://www.swiss.com
+100;UA;United Airlines;USD;http://www.ual.com
